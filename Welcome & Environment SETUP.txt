@@ -1,0 +1,53 @@
+Section 1: General Awareness
+Web Development Basics:
+
+Web development is creating websites or web apps for the internet. It’s essential for businesses and individuals to have an online presence and engage users.
+HTML Knowledge:
+
+Yes, HTML stands for HyperText Markup Language. It structures a webpage’s content, like text, images, and links.
+
+
+
+***	***	***	***
+
+
+
+Section 2: Familiarity with CSS
+CSS Understanding:
+
+Yes, CSS (Cascading Style Sheets) styles and formats HTML elements, enhancing the visual look of a webpage.
+
+
+
+***	***	***	***
+
+
+
+Section 3: JavaScript and Its Importance
+Introduction to JavaScript:
+
+Yes, JavaScript is a programming language that makes websites interactive and responsive to user actions.
+
+
+
+***	***	***	***
+
+
+
+Section 4: Introduction to React and Node.js
+React and Node.js Awareness:
+
+Yes, React builds user interfaces, especially for dynamic content. Node.js runs JavaScript on the server to handle backend tasks.
+
+
+
+***	***	***	***
+
+
+
+Section 5: Bonus Question
+Learning Intentions:
+
+I want to learn web development to build dynamic websites and apps, enhancing my skills for personal projects and career opportunities.
+
+
