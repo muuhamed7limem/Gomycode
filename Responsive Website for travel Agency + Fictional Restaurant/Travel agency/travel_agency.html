@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel agency</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style_travel.css">
+</head>
+<body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="#">Travel Agency</a>
+          <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Destinations</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Tours</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      
+      <section class="hero-section" style="background-image: url('path/to/travel-image.jpg'); background-size: cover; height: 100vh;">
+        <div class="container d-flex justify-content-center align-items-center h-100 text-center">
+          <div>
+            <h1>Explore the World with Us</h1>
+            <p>Your journey begins here.</p>
+            <a href="#" class="btn btn-primary">Start Your Adventure</a>
+          </div>
+        </div>
+      </section>
+
+      
+      <section class="destinations-section py-5">
+        <div class="container">
+          <h2>Popular Destinations</h2>
+          <div class="row">
+
+            <div class="col-md-4">
+              <div class="card">
+                <img src="Spain.jpg" class="card-img-top" alt="Destination 1">
+                <div class="card-body">
+                  <h5 class="card-title">Spain</h5>
+                  <p class="card-text text-primary">3500 TND</p>
+                  <a href="#" class="btn btn-secondary">Learn More</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                  <img src="Italy.jpg" class="card-img-top" alt="Destination 2">
+                  <div class="card-body">
+                    <h5 class="card-title">Italy</h5>
+                    <p class="card-text text-primary">2700 TND</p>
+                    <a href="#" class="btn btn-secondary">Learn More</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="USA.jpg" class="card-img-top" alt="Destination 3">
+                  <div class="card-body">
+                    <h5 class="card-title">USA</h5>
+                    <p class="card-text text-primary">4000 TND</p>
+                    <a href="#" class="btn btn-secondary">Learn More</a>
+                  </div>
+                </div>
+              </div>
+
+          </div>
+        </div>
+      </section>
+
+      
+      <section class="tours-section py-5">
+        <div class="container">
+          <h2>Our Tours</h2>
+
+          <div class="accordion" id="tourAccordion">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#tour1">
+                  Tour Package 1
+                </button>
+              </h2>
+              <div id="tour1" class="accordion-collapse collapse show">
+                <div class="accordion-body">
+                  <p>Details of Tour Package 1.</p>
+                  <a href="#" class="btn btn-primary">View Details</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion" id="tourAccordion">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#tour2">
+                  Tour Package 2
+                </button>
+              </h2>
+              <div id="tour2" class="accordion-collapse collapse show">
+                <div class="accordion-body">
+                  <p>Details of Tour Package 2.</p>
+                  <a href="#" class="btn btn-primary">View Details</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion" id="tourAccordion">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#tour3">
+                  Tour Package 3
+                </button>
+              </h2>
+              <div id="tour3" class="accordion-collapse collapse show">
+                <div class="accordion-body">
+                  <p>Details of Tour Package 3.</p>
+                  <a href="#" class="btn btn-primary">View Details</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      
+      <section class="contact-section py-5 bg-light">
+        <div class="container">
+          <h2>Contact Us</h2>
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email">
+            </div>
+            <div class="mb-3">
+              <label for="destination" class="form-label">Destination of Interest</label>
+              <input type="text" class="form-control" id="destination">
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="4"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </section>
+
+      
+      <footer class="bg-dark text-light py-3">
+        <div class="container text-center">
+          <p>&copy; 2024 Travel Agency. All Rights Reserved.</p>
+          <p>
+            Follow us:
+            <a href="#" class="text-light mx-2"><i class="fab fa-facebook-f"></i> Facebook</a>
+            <a href="#" class="text-light mx-2"><i class="fab fa-twitter"></i> Twitter</a>
+            <a href="#" class="text-light mx-2"><i class="fab fa-instagram"></i> Instagram</a>
+          </p>
+        </div>
+      </footer>
+      
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
