@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fictional Restaurant</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style_res.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="#">Fictional Restaurant</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+      <section class="hero-section text-center text-light" style="background-image: url('path/to/your-image.jpg'); background-size: cover; height: 100vh;">
+        <div class="container d-flex justify-content-center align-items-center h-100">
+          <div>
+            <h1 class="text-secondary">Welcome to Fictional Restaurant</h1>
+            <a href="#" class="btn btn-primary mt-3">Order Now</a>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="menu-section py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-15">
+              <div class="card" id="card">
+                <img id="dish" src="Spaghettie.jpg" class="card-img-top" alt="Dish 1">
+                <div class="card-body">
+                  <h5 class="card-title">Spaghettie</h5>
+                  <p class="card-text">Spicy spaghettie</p>
+                  <p class="text-primary">12 DT</p>
+                </div>
+              </div>
+
+              <div class="card" id="card">
+                <img id="dish" src="Ojja.jpg" class="card-img-top" alt="Dish 2">
+                <div class="card-body">
+                  <h5 class="card-title">Ojja</h5>
+                  <p class="card-text">Delicious Ojja</p>
+                  <p class="text-primary">25 Dt</p>
+                </div>
+              </div>
+
+              <div class="card" id="card">
+                <img id="dish" src="Koskous.jpg" class="card-img-top" alt="Dish 3">
+                <div class="card-body">
+                  <h5 class="card-title">Coscous</h5>
+                  <p class="card-text">Delicious Coscous</p>
+                  <p class="text-primary">45 Dt</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      
+      <section class="about-us py-5 bg-light">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <img id="logo" src="Logo.png" class="img-fluid" alt="About Us">
+            </div>
+            <div class="col-md-6">
+              <h2>About Us</h2>
+              <p>Fictional Restaurant is a cozy Tunisian restaurant that offers a culinary journey through North Africa. Our menu features traditional dishes like couscous, brik, and tajine, made with fresh, local ingredients. Experience the warm hospitality and authentic flavors of Tunisia.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      
+      <section class="contact-section py-5">
+        <div class="container">
+          <h2>Contact Us</h2>
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </section>
+
+      
+      <footer class="bg-dark text-light py-3 text-center">
+        <p>&copy; 2024 Fictional Restaurant. Follow us on:
+          <a href="#" class="text-light mx-2">Facebook</a>
+          <a href="#" class="text-light mx-2">Twitter</a>
+        </p>
+      </footer>
+      
+    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
