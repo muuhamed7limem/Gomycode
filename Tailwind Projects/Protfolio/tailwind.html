@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>Tailwind Portfolio</title>
+</head>
+<body>
+
+    <header class="flex justify-between items-center p-6 bg-gray-800 text-white">
+        <h1 class="text-3xl font-bold">Med Limem Charfi</h1>
+        <nav class="space-x-4">
+          <a href="#home" class="hover:text-gray-400">Home</a>
+          <a href="#projects" class="hover:text-gray-400">Projects</a>
+          <a href="#contact" class="hover:text-gray-400">Contact</a>
+        </nav>
+      </header>
+
+      
+      <section class="h-screen bg-cover bg-center text-center text-white" >
+        <div class="bg-black bg-opacity-50 h-full flex flex-col justify-center items-center">
+          <h2 class="text-4xl md:text-6xl font-bold">Welcome! I'm Mohamed Limem.</h2>
+          <p class="mt-4 text-lg md:text-2xl">A Web Developer</p>
+        </div>
+      </section>
+
+      
+      <section id="skills" class="py-12 bg-gray-100">
+        <h3 class="text-3xl font-semibold text-center mb-6">Skills</h3>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+          <div class="bg-white p-4 shadow-lg">HTML</div>
+          <div class="bg-white p-4 shadow-lg">CSS</div>
+          <div class="bg-white p-4 shadow-lg">JavaScript</div>
+          <div class="bg-white p-4 shadow-lg">Tailwind CSS</div>
+        </div>
+      </section>
+
+      
+      <section id="projects" class="py-12">
+        <h3 class="text-3xl font-semibold text-center mb-6">Projects</h3>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div class="bg-white shadow-lg p-4">
+            <img src="Project sample.jpg" class="w-full h-40 object-cover mb-4" alt="Project 1">
+            <h4 class="text-xl font-bold">Travel agency Project</h4>
+            <p class="text-gray-600">Description of project ...</p>
+          </div>
+        </div>
+
+        
+      </section>
+
+      
+      <section id="contact" class="py-12 bg-gray-100">
+        <h3 class="text-3xl font-semibold text-center mb-6">Contact Me</h3>
+        <form class="max-w-md mx-auto bg-white p-6 rounded shadow-lg">
+          <input type="text" placeholder="Name" class="w-full p-2 mb-4 border rounded">
+          <input type="email" placeholder="Email" class="w-full p-2 mb-4 border rounded">
+          <textarea placeholder="Message" class="w-full p-2 mb-4 border rounded"></textarea>
+          <button class="w-full bg-blue-500 text-white p-2 rounded">Send Message</button>
+        </form>
+      </section>
+
+      
+      <footer class="bg-gray-800 text-white text-center py-4">
+        <div class="flex justify-center space-x-4 mb-2">
+          <a href="#" class="text-gray-400 hover:text-white">Twitter</a>
+          <a href="#" class="text-gray-400 hover:text-white">LinkedIn</a>
+        </div>
+        <p>&copy; 2023 Your Name</p>
+      </footer>
+      
+    
+</body>
+</html>
