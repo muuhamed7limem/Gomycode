@@ -1,0 +1,38 @@
+PROCEDURE analyze_sentence()
+VAR
+    length, word_count, vowel_count : INTEGER;
+    ch, prev_char : CHAR;
+BEGIN
+    length := 0;
+    word_count := 0;
+    vowel_count := 0;
+    prev_char := ' '; 
+
+    PRINT "Enter a sentence ending with a period:";
+
+    REPEAT
+        READ ch; // Read a character from the input
+        length := length + 1;
+
+        // Check for vowels
+        IF (ch = 'a' OR ch = 'e' OR ch = 'i' OR ch = 'o' OR ch = 'u' OR
+            ch = 'A' OR ch = 'E' OR ch = 'I' OR ch = 'O' OR ch = 'U') THEN
+            vowel_count := vowel_count + 1;
+        END_IF
+
+        
+        IF (ch = ' ' AND prev_char != ' ') THEN
+            word_count := word_count + 1;
+        END_IF
+
+        prev_char := ch;
+    UNTIL ch = '.' 
+
+    IF prev_char != ' ' AND prev_char != '.' THEN
+        word_count := word_count + 1;
+    END_IF
+
+    PRINT "Length of sentence:", length;
+    PRINT "Number of words:", word_count;
+    PRINT "Number of vowels:", vowel_count;
+END
