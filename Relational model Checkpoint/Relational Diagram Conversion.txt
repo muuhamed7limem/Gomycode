@@ -1,0 +1,51 @@
+1. Hotel (Primary Key: Hotel_id)
+
+Hotel_id (PK)
+
+Hotel_name
+
+----------------------------
+
+2. Room (Primary Key: Room_Id)
+
+Room_Id (PK)
+
+Floor
+
+Hotel_id (FK) → Hotel.Hotel_id (1-to-many relationship)
+
+Type_Id (FK) → Type.Type_Id (1-to-many relationship)
+
+----------------------------
+
+3. Type (Primary Key: Type_Id)
+
+Type_Id (PK)
+
+Type_Name
+
+Category_Id (FK) → Category.Category_Id (1-to-many relationship)
+
+----------------------------
+
+4. Category (Primary Key: Category_Id)
+
+Category_Id (PK)
+
+Category_Name
+
+Price
+
+Beds_numbers
+
+----------------------------
+
+5. Employee (Primary Key: Employee_Id)
+
+Employee_Id (PK)
+
+Employee_Name
+
+Employee_Specialty
+
+Hotel_id (FK) → Hotel.Hotel_id (1-to-many relationship)
